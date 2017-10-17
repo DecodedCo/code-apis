@@ -18,9 +18,6 @@ function addATMs() {
 		console.log(data);
 		drawpoints(data);
 	});
-
-
-
 } // end addATMs
 
 // Draw the ATMs on the map
@@ -34,7 +31,7 @@ function drawpoints(data) {
 		anchor: new google.maps.Point(0, 0), // anchor
 	}; // End icon
 
-	//Loop through our list o fATMs and put them on the map
+	//Loop through our list of ATMs and put them on the map
 	for (i = 0; i < data.length; i++) {
 
 		// You have to create a point first
